@@ -4,16 +4,17 @@ c = "$$Cisco Switch$$"
 d = "  Root User "
 split_string = "Cisco,Juniper,Palo alto,fortinet"
 # string methods
-""" index()
-    find()
-    count()
-    upper()
-    lower()
-    startswith()
-    endswith()
-    strip()
-    replace()
-    split()"""
+""" index() :- finds the index no of the specified value in method
+    find() :- finds the matching strings starting index no
+    count() :- counts the no of elements in string
+    upper() :- makes all uppercase
+    lower() :- makes all lowercase
+    startswith() :- finds vlaues starting with specified value in method
+    endswith() :- finds values ending with specified value in method
+    strip() :- removes empty spaces from string also specified values in that method
+    replace() :- replaces the string values with specified values in method
+    split() :- splits the values in string with specified delimeter in the method
+    """
 # find the index of the letter in string 
 
 print(a.index("S")) # here we are printing index no of S from the variable a
