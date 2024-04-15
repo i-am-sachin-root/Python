@@ -41,4 +41,5 @@ print("We are removing $ signs :", c.strip("$"))
 #Using replace to remove epmty space, but this will remove all empty space
 print("before :",d)
 print("We are removing all empty space :", d.replace(" ", "")) #Replacing "empty space" with ""
+print("Replacing 'Root User' with 'common user' :",d.replace("Root", "Common")) # here we are replacing the "Root" value to "Common" value in string
 
