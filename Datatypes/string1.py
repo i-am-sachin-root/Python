@@ -1,5 +1,7 @@
 a = "Cisco Switch"
 strip_var = "   Cisco Switch  "
+c = "$$Cisco Switch$$"
+d = "  Root User "
 # string methods
 """ index()
     find()
@@ -31,3 +33,12 @@ print("macbook does not match with string starting value cisco will give value:"
 # Removing empty scpaces from string 
 print("Before: ", strip_var)
 print("We are removing empty spaces from string:",strip_var.strip())
+
+#Rmoving specific values from the string 
+print("before: ",c)
+print("We are removing $ signs :", c.strip("$"))
+
+#Using replace to remove epmty space, but this will remove all empty space
+print("before :",d)
+print("We are removing all empty space :", d.replace(" ", "")) #Replacing "empty space" with ""
+
