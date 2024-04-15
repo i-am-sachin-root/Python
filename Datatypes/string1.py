@@ -5,7 +5,9 @@ a = "Cisco Switch"
     find()
     count()
     upper()
-    lower()"""
+    lower()
+    startswith()
+    endswith()"""
 # find the index of the letter in string 
 print(a.index("S")) # here we are printing index no of S from the variable a
 
@@ -18,3 +20,8 @@ print("The starting index is:",a.find("Switch"))
 # create string in upper and lower case 
 print(a.lower())
 print(a.upper())
+
+# check start and end of the string is matching with our given values 
+print("Value Cisco will match with string vlaue cisco and give value:",a.startswith("Cisco"))
+print("Vlalue ch will match with ending value of string and give value:",a.endswith("ch"))
+print("macbook does not match with string starting value cisco will give value:",a.startswith("macbook"))
