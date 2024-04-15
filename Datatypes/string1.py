@@ -2,6 +2,7 @@ a = "Cisco Switch"
 strip_var = "   Cisco Switch  "
 c = "$$Cisco Switch$$"
 d = "  Root User "
+split_string = "Cisco,Juniper,Palo alto,fortinet"
 # string methods
 """ index()
     find()
@@ -10,7 +11,9 @@ d = "  Root User "
     lower()
     startswith()
     endswith()
-    strip()"""
+    strip()
+    replace()
+    split()"""
 # find the index of the letter in string 
 
 print(a.index("S")) # here we are printing index no of S from the variable a
@@ -43,3 +46,6 @@ print("before :",d)
 print("We are removing all empty space :", d.replace(" ", "")) #Replacing "empty space" with ""
 print("Replacing 'Root User' with 'common user' :",d.replace("Root", "Common")) # here we are replacing the "Root" value to "Common" value in string
 
+#Using the split method to seperate string values by delimter
+print("before :", split_string)
+print("Splitting the values in string by delimiter ',' :", split_string.split(","))
