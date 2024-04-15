@@ -11,3 +11,16 @@ and we are using it to display multiple information on the output"""
     Reverse indexing 
             A B C D
         -4 -3 -2 -1 """
+
+string1 = "Cisco Router"
+print(string1[0])
+print(string1[2])
+print(string1[-1])
+print(string1[-2])
+
+# len() :- returns  no of charecters in the string.
+len1 = len(string1)
+print(len1)
+
+
+
