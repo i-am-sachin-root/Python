@@ -14,6 +14,7 @@ split_string = "Cisco,Juniper,Palo alto,fortinet"
     strip() :- removes empty spaces from string also specified values in that method
     replace() :- replaces the string values with specified values in method
     split() :- splits the values in string with specified delimeter in the method
+    join() :- join the string with our specified value
     """
 # find the index of the letter in string 
 
@@ -50,3 +51,7 @@ print("Replacing 'Root User' with 'common user' :",d.replace("Root", "Common")) 
 #Using the split method to seperate string values by delimter
 print("before :", split_string)
 print("Splitting the values in string by delimiter ',' :", split_string.split(","))
+
+#Using joi() to add value into the string
+print("before :", a)
+print("Using join to add underscor :", "_".join(a))
