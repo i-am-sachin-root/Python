@@ -18,6 +18,12 @@ print("Printing ip address from the routing table :", string1[7: ] ) #here we ha
 # define end index but not start index 
 print("Printing ip address from the routing table :", string1[: 18] ) # here line will start from index 0 and will end on index 18(excluded)
 
-# deine steps so that string will skip the letters 
+# define steps so that string will skip the letters 
 
 print("using steps elements of string will be skipped :",string1[::4]) # output will be given with every 4 element skipped
+
+# print string in reverse 
+print("Printing line in reverse :",string1[::-1])
+
+my_string = "a0:12:90:00:80:43"
+print(my_string[4:7])
