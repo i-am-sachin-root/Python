@@ -1,7 +1,21 @@
 """
     type() :- tells the datatype of the variable
     Math operators 
-    +,-,*,/,//,%,**, <,<=,>,=>
+    +,-,*,/,//,%,**, <,<=,>,=>, ==, !=
+
+    python priortiy 
+    1) **
+    2) *, /, %
+    3)+, -
+    
+    Pythin number functions
+    int()
+    float()
+    abs()
+    max() :- finds highest value
+    min() :- finds smallest value
+    pow(x,y) :- power of x^y  
+
     """
 num1 = 22.5
 num2 = 20
