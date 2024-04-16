@@ -1,8 +1,8 @@
 """
     type() :- tells the datatype of the variable
     """
-num1 = 20 
-num2 = 22.5
+num1 = 22.5
+num2 = 20
 
 
 print(num1 + num2) #addidtion
