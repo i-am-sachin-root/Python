@@ -11,7 +11,7 @@
     Pythin number functions
     int()
     float()
-    abs()
+    abs() :- gives distans from 0 to given no
     max() :- finds highest value
     min() :- finds smallest value
     pow(x,y) :- power of x^y  
