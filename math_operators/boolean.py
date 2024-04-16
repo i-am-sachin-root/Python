@@ -13,6 +13,10 @@ print("They are not eaqual :", num1 != num2) # check if they are not equal
 print("Is num1 > than or equal to num2 :", num1 >= num2) # checking return true if num1 is > or == 
 
 # AND operator 
-print("AND operation :", 1==1 and 2==2) # left side and right side = true, if both true then ans = true 
-print("AND operation :", 1==3 and 2==2) # here final value false, because 1 and 3 not equal
+print("AND operation work is values are equal :", 1==1 and 2==2) # left side and right side = true, if both true then ans = true 
+print("AND operation work if vlaues not equal :", 1==3 and 2==2) # here final value false, because 1 and 3 not equal
+
+# OR operator :- only one side needs to be true
+print("OR operator :",num1 > num2 or num1 == num2 ) # only left side is true 
+
 
