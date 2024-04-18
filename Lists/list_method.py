@@ -7,6 +7,8 @@ del list1[id] :- deleting element from the list
 list1.pop(id) :- Taking specific value fro  list, removes from previous list
 list1.remove() :- 
 list1.insert(id, elemet) :- insert element in specified index of list 
+list1.sort():- sorts the elements by asc or desc 
+Methods like count(),append,(),index() also work on list 
 """
 
 List1 = ["cisco", "google", 2900,14.0]
@@ -40,9 +42,17 @@ print(List2)
 
 #inserting element in the list 
 print("Before :",List2)
-lmath = len(List2) # here we are using len()  to find the max length and will use this value as end value, and with this we'll be able to add at the end of the string.
-List2.insert(lmath,"end of list ")
-print("inserting st the end of the list :",List2)
+lmath = len(List2); """ here we are using len()  to find the max length and will use this value as end value, and with this we'll be able to add at the end of the string.
+                        """
+List2.insert(lmath,"end of list")
+print("inserting at the end of the list :",List2)
+
+#sorting in the list 
+print("Before sorting :", List2)
+del List2[(lmath)] # deleting string because sorting will not happen in sttring and int list 
+Lsort = List2 #creating variable to store the output of new list after deletion 
+Lsort.sort() # sorting the new list 
+print("After sorting:",Lsort)
 
 
 
