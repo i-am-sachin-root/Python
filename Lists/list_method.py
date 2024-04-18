@@ -8,8 +8,13 @@ list1.pop(id) :- Taking specific value fro  list, removes from previous list
 list1.remove() :- 
 list1.insert(id, elemet) :- insert element in specified index of list 
 list1.sort():- sorts the elements by asc or desc 
+list.reverse() :- reverse sort 
 Methods like count(),append,(),index() also work on list 
-"""
+functions 
+    sorted(list2,reverse = True) :- use sorted function to sort the list
+
+math operators also work
+    like + to concatinate 2 lists """
 
 List1 = ["cisco", "google", 2900,14.0]
 List2 = [1,2,43,-3,0]
@@ -53,6 +58,10 @@ del List2[(lmath)] # deleting string because sorting will not happen in sttring 
 Lsort = List2 #creating variable to store the output of new list after deletion 
 Lsort.sort() # sorting the new list 
 print("After sorting:",Lsort)
+
+#concatinating lists 
+Lcat = List1 + List2
+print("concatinating lists :",Lcat)
 
 
 
