@@ -4,7 +4,9 @@ max(list) :- gives max value from the list
 list1.append(x,z,z) :- we can add values in the end of the list 
 List1.extend(x,y,z) :- extending another list on the list
 del list1[id] :- deleting element from the list 
-list1.pop(id) :- Taking specific value fro  list
+list1.pop(id) :- Taking specific value fro  list, removes from previous list
+list1.remove() :- 
+list1.insert(id, elemet) :- insert element in specified index of list 
 """
 
 List1 = ["cisco", "google", 2900,14.0]
@@ -27,5 +29,21 @@ print("extending list using extend() :",List1)
 del List1[1] 
 print("Delet  element from list :", List1)
 
-#Taking specific value fro  list
+#Taking specific value from  list it will also remove it from the list 
 print("using pop to take specific element :", List1.pop(0))
+print(List1)
+
+
+# Removing element from list 
+List2.remove(43)
+print(List2)
+
+#inserting element in the list 
+print("Before :",List2)
+lmath = len(List2) # here we are using len()  to find the max length and will use this value as end value, and with this we'll be able to add at the end of the string.
+List2.insert(lmath,"end of list ")
+print("inserting st the end of the list :",List2)
+
+
+
+
