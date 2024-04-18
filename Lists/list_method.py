@@ -14,3 +14,8 @@ print("max() will give max value from list :", max(List2)) # finding max value f
 exstra_list = ["Iron man","Bat man","Spider man"]
 List1.append(exstra_list)
 print("Appending values at the end of the list :",List1)  #This will add extra list inside the existing list 
+
+#Extending the list 
+ext_list = ["red", "blue", "yellow"]
+List1.extend(ext_list)
+print("extending list using extend() :",List1)
