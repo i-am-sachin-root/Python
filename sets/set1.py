@@ -18,3 +18,8 @@ print(set1)
 #creating set using {}
 set2 = {12,13,13,14,15}
 print("creating set using { } ", set2)
+
+#checking if element is in set or not 
+print("Set1 elements :",set1)
+print("Finding element using 'int' op :", 4 in set1)
+print("If element is not available :", 20 in set1)
