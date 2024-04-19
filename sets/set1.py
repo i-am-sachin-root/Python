@@ -1,4 +1,6 @@
 """
+Sets are mutable
+
 Mathod 1 for set creation
 set1 =  [1,2,3,4,5]
 set1 = set(set1) :- using function to create set
@@ -23,3 +25,11 @@ print("creating set using { } ", set2)
 print("Set1 elements :",set1)
 print("Finding element using 'int' op :", 4 in set1)
 print("If element is not available :", 20 in set1)
+
+
+# adding values in the set
+print("before :",set1)
+#extra = {34,45,23,55}
+#set1.extend(34,45,23,55)
+set1.add(34) #it will add only 1 element 
+print("Added new elements in set1 :", set1)
