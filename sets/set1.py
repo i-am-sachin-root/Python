@@ -33,3 +33,8 @@ print("before :",set1)
 #set1.extend(34,45,23,55)
 set1.add(34) #it will add only 1 element 
 print("Added new elements in set1 :", set1)
+
+# remove element from  set 
+print("Before removing element :", set1)
+set1.remove(34)
+print("after remving set :",set1)
