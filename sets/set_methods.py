@@ -32,3 +32,8 @@ print("after poping the element :",popped ) #this will pop random element fro se
 set1.remove(4)
 print("using remove() to remove specific element :",set1) 
 
+#Clearing the set
+set1 = {1,2,3,4,5,6}
+print("Before :",set1)
+set1.clear()
+print("after clearing set :",set1)
