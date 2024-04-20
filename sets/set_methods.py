@@ -23,3 +23,12 @@ set2 = {4,5,6,7,8}
 set1 = set1.union(set2)
 print("Adding both sets with union() method :", set1)
 
+
+# poping the element from the set 
+set1 = {1,2,3,4,5,6}
+print("Before poping the element :",set1)
+popped = set1.pop() # we cannot specify sepecic elemet from the set because it has no oreder, so to remove specific element we need to use remove() method
+print("after poping the element :",popped ) #this will pop random element fro set 
+set1.remove(4)
+print("using remove() to remove specific element :",set1) 
+
