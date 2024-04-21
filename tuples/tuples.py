@@ -4,6 +4,7 @@
 - IMP :- used to keep data is sequence and unchangable 
 - indexes and duplicates are allowed
 - we cannot remove or add into tuples 
+- to assing tuple to tuple values both tuples should have same no of elements 
  """
 
 #create single element tuple, normally tuple has many elements 
@@ -17,8 +18,10 @@ print("before :", tup1)
 print("using single element using indexing :",tup1[3])
 
 #variable to value assignment 
-var1 = ("Cisco", "ISR4321", "14.2")  # here we are adding variables 
-vendor, model, ios_version = var1  # here are our main category 
+var1 = ("Cisco", "ISR4321", "14.2")  # here we are adding variables, this is also tuple
+vendor, model, ios_version = var1  # here are our main category, this is also tuple 
 print(type(var1)) # checking types changed to tuple or still string 
 print("Printing vaules from tuples :",vendor,model,ios_version)
+
+
 
