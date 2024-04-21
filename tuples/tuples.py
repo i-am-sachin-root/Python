@@ -5,6 +5,11 @@
 - indexes and duplicates are allowed
 - we cannot remove or add into tuples 
 - to assing tuple to tuple values both tuples should have same no of elements 
+
+Mulitple assignment syntax 
+    tuple1 = (value1, value2, vlaue3)
+    value1, value2, value3 = tuple1
+
  """
 
 #create single element tuple, normally tuple has many elements 
