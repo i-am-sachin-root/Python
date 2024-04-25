@@ -13,6 +13,9 @@ Mulitple assignment syntax
  """
 
 #create single element tuple, normally tuple has many elements 
+from dis import disco
+
+
 single_tuple = (1,)
 print(type(single_tuple))
 print("Creating tuple with single element just add ',' after element :",single_tuple)
@@ -29,4 +32,6 @@ print(type(var1)) # checking types changed to tuple or still string
 print("Printing vaules from tuples :",vendor,model,ios_version)
 
 
-
+#multiple tuples assignment in single statement 
+vendors,models,vers = ("cisco",43,14.0)
+print(type((vendors,models,vars))) # checking type
