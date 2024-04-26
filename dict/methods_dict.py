@@ -26,3 +26,6 @@ print("checking if the key pair is available or not :",("RAM" in dict2)) #this w
 #print the keys from the dict
 print("Printing the keys from the dict :",dict2.keys())
 
+#print pairs from the dict
+print("Printing the pair values from the keys :",dict2.values())  
+
