@@ -1,0 +1,9 @@
+r = range(1,10) #in python 3 it will just show the type wont print the actual type
+print(r) #
+
+
+print(list(r)) # this will print the actual list now 
+
+l1 = list(r)
+
+print(l1[1:4]) #printing sclice from the list 
