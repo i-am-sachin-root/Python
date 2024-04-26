@@ -20,4 +20,6 @@ print("len of dict :",len(dict2))
 #check if the value is in dict or not 
 print(dict2)
 print("checking if the key pair is available or not :",("gig ports" in dict2))
+print("checking if the key pair is available or not :",("RAM" in dict2)) #this will give us value false because we have already deleted the RAM key par using del operator
+
 
