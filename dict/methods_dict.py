@@ -12,3 +12,12 @@ print("Modefied key vlaue :",dict2)
 #deleting the key pair from the dict
 del dict2["RAM"]
 print("Deleted RAM key pair from the dict :",dict2)
+
+#finding leght of the dict
+print(dict2)
+print("len of dict :",len(dict2))
+
+#check if the value is in dict or not 
+print(dict2)
+print("checking if the key pair is available or not :",("gig ports" in dict2))
+
