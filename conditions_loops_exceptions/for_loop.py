@@ -1,4 +1,4 @@
-"Used for iteration on the sequence "
+"Used for iteration on the sequence, executes   code block for the no of time"
 list1 = ["Cisco","Juniper","Palo Alto","Fortinet"]
 print("checking vcariable type",type(list1))
 
