@@ -11,10 +11,20 @@ while x <= 10: # while is checking x = 1 against 1 <= 10 and the ans is true, an
 
 
 # what would happen if we do not add the increment line 
-x = 1 
-while x <= 10:
-    print(x)
+# x = 1 
+# while x <= 10:
+   # print(x)
     # here we don't specify x = x + 1, it'll never add up to 10 <= 10 to end the while loop, so while loop will run infinetly 
+
+
+# While else loop 
+x = 1 
+while x <= 10: 
+    print(x)
+    x += 1
+else :
+    print("the value of x reached greater that 10")
+
        
        
     
