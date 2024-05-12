@@ -16,3 +16,8 @@ for i in r:
 list1 = ["Cisco","Fortinet","DELL","HP","google"]
 for (index, element) in  enumerate(list1): # here we are printing the index as well as their elements 
         print(index,element)
+
+for element in list1:
+        print(element)
+else:
+        print("after for loop else also will be performed")
