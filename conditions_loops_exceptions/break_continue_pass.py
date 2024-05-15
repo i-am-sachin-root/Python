@@ -17,3 +17,5 @@ for i in list1: #taking element from list1
             break # if j = 20 then break the loop
         print(i * j)
     print("outside of the isnide for loop")
+
+"""in above example only insde loop will breake if j = 20, and then main for loop will go to next element till inside for loop reaches again j = 20"""
