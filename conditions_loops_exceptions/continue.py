@@ -10,3 +10,5 @@ for i in list1:
             continue # if j = 20, then skipp the next multiplication and got to main for loop for next iteration.
         print(i * j)
     print("outside of the inside for loop")
+
+"""Above code will hit j = 20, the conitnue statement will skip the code block and will go for next iteration"""
