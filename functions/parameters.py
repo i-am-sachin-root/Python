@@ -8,4 +8,4 @@ def test_function2(x,y):
     print("Hello " + x)
     print("Hello " + y)
 
-test_function2("Sachin","Jack")
+test_function2("Sachin","Jack") #here x will be mapped to sachin and y to Jack 
