@@ -8,3 +8,16 @@ x :- exclusive creation, used for photos, pdf, executable files etc (no text fil
 """
 
 print(myfile.mode) #here we can see that in which mode we are opeining this file from r,w,a,b,x
+
+#Reading the content of the file 
+print(myfile.read()) 
+
+#cursor position inside  the file
+print(myfile.read(5)) # this will give no value because will be at the end of the file, so it won't give any values.
+
+
+#change the postion of the cursor in the file
+print(myfile.seek(0)) #this will reset the file at the start 
+
+#check the current position of the cursor 
+print(myfile.tell()) #this will tell that where is the currenlty cursor located in the file 
