@@ -21,3 +21,7 @@ print(myfile.seek(0)) #this will reset the file at the start
 
 #check the current position of the cursor 
 print(myfile.tell()) #this will tell that where is the currenlty cursor located in the file 
+
+
+#now the cursor is at start so we can read from the start
+print(myfile.read(5)) #here we are reading 5 charecters from the start of the file 
