@@ -35,3 +35,15 @@ print(myfile.seek(0))
 
 # Reading the entire file in list format 
 print(myfile.readlines()) #this will print the file in list format 
+
+
+#search specific workd in file 
+myfile.seek(0) #going at the start
+for line in myfile.readlines():
+    
+    if  line.startswith("Ci"):
+        print(line)
+        
+
+
+    
