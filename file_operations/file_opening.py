@@ -25,3 +25,13 @@ print(myfile.tell()) #this will tell that where is the currenlty cursor located 
 
 #now the cursor is at start so we can read from the start
 print(myfile.read(5)) #here we are reading 5 charecters from the start of the file 
+
+print(myfile.seek(0))
+
+#reading first row of the file 
+print(myfile.readline())
+
+print(myfile.seek(0))
+
+# Reading the entire file in list format 
+print(myfile.readlines()) #this will print the file in list format 
