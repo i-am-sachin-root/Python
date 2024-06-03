@@ -19,3 +19,7 @@ print(t)
 #\W non word, will ignore words no and _
 t = re.search(r"\W",a) #this will give 1st whitespace, can find all white spaces but need to use findall()
 print(t)
+
+# \A matches if the string starts with 
+t = re.findall(r"\Ag",a) #this will check if the starting string matches with given expression
+print(t) 
