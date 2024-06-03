@@ -23,3 +23,7 @@ print(t)
 # \A matches if the string starts with 
 t = re.findall(r"\Ag",a) #this will check if the starting string matches with given expression
 print(t) 
+
+# \Z matching ending charecter 
+t = re.findall(r"it\Z",a) #this will print it beacuse that is what matches with expression and in the string 
+print(t)  
