@@ -14,3 +14,7 @@ print(res)
 
 res = re.findall(r"[^a]",a) # this will find all but ignore a  
 print(res)
+
+
+res = re.findall(r"[0-9]",a) # this will find all no in the string
+print(res)
