@@ -30,10 +30,13 @@ print(router1.model)
 #accessing the normal method 
 print(router1.print_router("20240604"))
     
+#get attribute value
+at1 = getattr(router1,"routername")
+print(at1)
 
-
-
-
+#set attribute for new object 
+router2 = MyRouter("Ver")
+setattr(router2)
 
 
 
