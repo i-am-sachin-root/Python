@@ -29,7 +29,7 @@ print(router1.model)
 
 #accessing the normal method 
 print(router1.print_router("20240604"))
-
+    
 
 
 
